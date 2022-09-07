@@ -10,7 +10,7 @@ public class PostmanEcho {
         //Given - When -Then
         given()
                 .baseUri("https://postman-echo.com")
-                .body("07.09.2022")
+                .body("07.09.2020")
                 .when()
                 .post("/post")
                 .then()
